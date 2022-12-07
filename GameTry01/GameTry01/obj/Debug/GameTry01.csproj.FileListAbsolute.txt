@@ -1,0 +1,11 @@
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\bin\Debug\GameTry01.exe.config
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\bin\Debug\GameTry01.exe
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\bin\Debug\GameTry01.pdb
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.csproj.AssemblyReference.cache
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.csproj.SuggestedBindingRedirects.cache
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.Form1.resources
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.Properties.Resources.resources
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.csproj.GenerateResource.cache
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.csproj.CoreCompileInputs.cache
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.exe
+C:\Users\cabej\Source\Repos\Game-Try-No.1\GameTry01\GameTry01\obj\Debug\GameTry01.pdb
