@@ -82,7 +82,9 @@ namespace GameTry01
                     break;
             }
         }
-
+        /// <summary>
+        /// Cyklus pro zapis lepsiho casu do listboxu
+        /// </summary>
         private void Zapis()
         {
             timer1.Stop();
@@ -101,7 +103,9 @@ namespace GameTry01
             }
             return;
         }
-
+        /// <summary>
+        /// Cyklus vyuzivajici funkce Generace a Zapis
+        /// </summary>
         private void Cyklus()
         {
             if (pocet == 10)
