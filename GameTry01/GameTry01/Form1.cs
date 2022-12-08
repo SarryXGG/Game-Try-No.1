@@ -102,6 +102,18 @@ namespace GameTry01
             return;
         }
 
+        private void Cyklus()
+        {
+            if (pocet == 10)
+            {
+                Zapis();
+            }
+            else
+            {
+                Generace();
+            }
+        }
+
         private void button17_Click(object sender, EventArgs e)
         {
             pocet = 0;
@@ -110,6 +122,7 @@ namespace GameTry01
             dt = DateTime.Now;
             Generace();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (button1.BackColor == Color.Green)
@@ -117,14 +130,7 @@ namespace GameTry01
                 button1.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
             
 
@@ -137,14 +143,7 @@ namespace GameTry01
                 button2.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -155,14 +154,7 @@ namespace GameTry01
                 button3.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -173,14 +165,7 @@ namespace GameTry01
                 button4.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -191,14 +176,7 @@ namespace GameTry01
                 button5.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -209,14 +187,7 @@ namespace GameTry01
                 button6.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -227,14 +198,7 @@ namespace GameTry01
                 button7.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -245,14 +209,7 @@ namespace GameTry01
                 button8.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -263,14 +220,7 @@ namespace GameTry01
                 button9.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -281,14 +231,7 @@ namespace GameTry01
                 button10.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -299,14 +242,7 @@ namespace GameTry01
                 button11.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -317,14 +253,7 @@ namespace GameTry01
                 button12.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -335,14 +264,7 @@ namespace GameTry01
                 button13.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -353,14 +275,7 @@ namespace GameTry01
                 button14.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -371,14 +286,7 @@ namespace GameTry01
                 button15.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
 
@@ -389,14 +297,7 @@ namespace GameTry01
                 button16.BackColor = Color.Red;
                 ++pocet;
 
-                if (pocet == 10)
-                {
-                    Zapis();
-                }
-                else
-                {
-                    Generace();
-                }
+                Cyklus();
             }
         }
     }
