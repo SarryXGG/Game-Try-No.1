@@ -18,7 +18,9 @@ namespace GameTry01
         }
         Random random = new Random();
         int pocet = 0;
+        int pokusy = 0;
         DateTime dt;
+        TimeSpan konecnyCas = TimeSpan.MaxValue;
         private void Form1_Load(object sender, EventArgs e)
         {
         }
@@ -81,14 +83,33 @@ namespace GameTry01
             }
         }
 
+        private void Zapis()
+        {
+            timer1.Stop();
+            DateTime dt2 = DateTime.Now;
+            TimeSpan minulyCas = konecnyCas;
+            konecnyCas = dt2 - dt;
+            if (minulyCas > konecnyCas)
+            {
+                listBox1.Items.Clear();
+                listBox1.Items.Add(konecnyCas.ToString());
+            }
+            else
+            {
+
+                listBox1.Items.Add("Minuly cas byl lepsi");
+            }
+            return;
+        }
+
         private void button17_Click(object sender, EventArgs e)
         {
             pocet = 0;
+            ++pokusy;
             timer1.Start();
             dt = DateTime.Now;
             Generace();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (button1.BackColor == Color.Green)
@@ -98,10 +119,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -121,10 +139,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -142,10 +157,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -163,10 +175,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -184,10 +193,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -205,10 +211,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -226,10 +229,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -247,10 +247,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -268,10 +265,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -289,10 +283,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -310,10 +301,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -331,10 +319,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -352,10 +337,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -373,10 +355,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -394,10 +373,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
@@ -415,10 +391,7 @@ namespace GameTry01
 
                 if (pocet == 10)
                 {
-                    timer1.Stop();
-                    DateTime dt2 = DateTime.Now;
-                    TimeSpan konecnyCas = dt2 - dt;
-                    listBox1.Items.Add(konecnyCas.ToString());
+                    Zapis();
                 }
                 else
                 {
